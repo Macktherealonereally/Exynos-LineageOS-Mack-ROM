@@ -2,13 +2,14 @@
 
 Unofficial LineageOS 23.2 (Android 16) builds for the Galaxy S21 Exynos (`o1s`), with VoLTE, eSIM (OpenEUICC), 60 fps video, a WPA3 hotspot and more. SELinux enforcing, signed with my own release keys.
 
-Downloads are on the [Releases](../../releases) page. Each release has two variants; pick one (switching between them needs a clean install):
+Downloads are on the [Releases](../../releases) page. There are three variants; pick one (switching between them needs a clean install, i.e. Format data):
 
 | File | What it is |
 |---|---|
 | `…-o1s-NG.zip` | No Google apps |
 | `…-o1s-MTG.zip` | With the minimal MindTheGapps set (Play Store, Play Services) |
-| `recovery.tar` | LineageOS recovery for Odin (works for both variants) |
+| `…-o1s-AMTG.zip` | MTG plus the full Google suite: Google app ("Hey Google", Circle to Search) and Pixel apps (Phone, Messages, Contacts, Gboard, Calendar, Clock, Photos, Android System Intelligence). First release: `lineage-23.2-20261021-amtg` |
+| `recovery.tar` | LineageOS recovery for Odin (works for all variants) |
 | `SHA256SUMS` | Checksums |
 
 Installation, known issues and support: see the XDA thread.
